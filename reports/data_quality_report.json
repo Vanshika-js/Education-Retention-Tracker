@@ -1,0 +1,49 @@
+{
+  "pipeline_execution_time": "2026-09-12T13:22:19.175837",
+  "datasets": {
+    "school_master": {
+      "raw_rows": 618,
+      "exact_duplicates": 18,
+      "retained_unique_schools": 600,
+      "missing_districts_imputed": 0
+    },
+    "student_attendance": {
+      "raw_rows": 20800,
+      "exact_duplicates": 800,
+      "retained_rows": 20000,
+      "impossible_attendance_count": 806,
+      "proxy_attendance_count": 944,
+      "valid_records_count": 18250
+    },
+    "mdm_procurement": {
+      "raw_rows": 12360,
+      "exact_duplicates": 360,
+      "retained_rows": 12000,
+      "missing_units_count": 3693,
+      "inferred_units_count": 1849,
+      "invalid_costs_count": 625
+    },
+    "school_infrastructure": {
+      "raw_rows": 3150,
+      "exact_duplicates": 150,
+      "history_rows": 3000,
+      "unique_schools_current": 598,
+      "normalized_booleans_count": 15000
+    },
+    "test_scores": {
+      "raw_rows": 8000,
+      "exact_duplicates": 0,
+      "retained_rows": 8000,
+      "scale_breakdown": {
+        "Raw Marks": 2002,
+        "Letter Grade": 1983,
+        "CGPA": 1609,
+        "%": 816,
+        "pct": 800,
+        "Percentage": 790
+      },
+      "valid_scores_count": 8000,
+      "invalid_scores_count": 0
+    }
+  }
+}
