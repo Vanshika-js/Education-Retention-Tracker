@@ -38,9 +38,8 @@ Ensure you have Python 3.9 or higher installed. Clone the repository and install
 git clone https://github.com/Vanshika-js/Education-Retention-Tracker.git
 cd Education-Retention-Tracker
 
-# Install required Python packages
+# Install required Python packages (packageName is given in requirements.txt)
 python -m pip install -r packageName 
-(packageName is given in requirements.txt)
 ```
 
 ### 2. Run Data Ingestion & Governance Pipeline
