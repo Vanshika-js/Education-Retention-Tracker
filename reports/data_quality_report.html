@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Quality Audit Report — TransOrg AgentIQ Datathon</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 30px; }
+        h1 { color: #38bdf8; border-bottom: 2px solid #0284c7; padding-bottom: 10px; }
+        .timestamp { color: #94a3b8; font-size: 0.9em; margin-bottom: 25px; }
+        .card { background: #1e293b; border-radius: 10px; padding: 20px; margin-bottom: 20px; border: 1px solid #334155; }
+        h2 { color: #f43f5e; margin-top: 0; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #334155; padding: 10px; text-align: left; }
+        th { background: #0f172a; color: #38bdf8; }
+        tr:nth-child(even) { background: #182234; }
+        .badge { background: #10b981; color: #fff; padding: 3px 8px; border-radius: 4px; font-weight: bold; font-size: 0.85em; }
+    </style>
+</head>
+<body>
+    <h1>TransOrg AgentIQ Datathon — Data Quality & Governance Audit Report</h1>
+    <div class="timestamp">Generated at: 2026-09-12T13:22:19.175837</div>
+
+    <div class="card">
+        <h2>Dataset: SCHOOL_MASTER</h2>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Raw Rows</td><td><span class='badge'>618</span></td></tr>
+<tr><td>Exact Duplicates</td><td><span class='badge'>18</span></td></tr>
+<tr><td>Retained Unique Schools</td><td><span class='badge'>600</span></td></tr>
+<tr><td>Missing Districts Imputed</td><td><span class='badge'>0</span></td></tr>
+</table></div>
+    <div class="card">
+        <h2>Dataset: STUDENT_ATTENDANCE</h2>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Raw Rows</td><td><span class='badge'>20800</span></td></tr>
+<tr><td>Exact Duplicates</td><td><span class='badge'>800</span></td></tr>
+<tr><td>Retained Rows</td><td><span class='badge'>20000</span></td></tr>
+<tr><td>Impossible Attendance Count</td><td><span class='badge'>806</span></td></tr>
+<tr><td>Proxy Attendance Count</td><td><span class='badge'>944</span></td></tr>
+<tr><td>Valid Records Count</td><td><span class='badge'>18250</span></td></tr>
+</table></div>
+    <div class="card">
+        <h2>Dataset: MDM_PROCUREMENT</h2>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Raw Rows</td><td><span class='badge'>12360</span></td></tr>
+<tr><td>Exact Duplicates</td><td><span class='badge'>360</span></td></tr>
+<tr><td>Retained Rows</td><td><span class='badge'>12000</span></td></tr>
+<tr><td>Missing Units Count</td><td><span class='badge'>3693</span></td></tr>
+<tr><td>Inferred Units Count</td><td><span class='badge'>1849</span></td></tr>
+<tr><td>Invalid Costs Count</td><td><span class='badge'>625</span></td></tr>
+</table></div>
+    <div class="card">
+        <h2>Dataset: SCHOOL_INFRASTRUCTURE</h2>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Raw Rows</td><td><span class='badge'>3150</span></td></tr>
+<tr><td>Exact Duplicates</td><td><span class='badge'>150</span></td></tr>
+<tr><td>History Rows</td><td><span class='badge'>3000</span></td></tr>
+<tr><td>Unique Schools Current</td><td><span class='badge'>598</span></td></tr>
+<tr><td>Normalized Booleans Count</td><td><span class='badge'>15000</span></td></tr>
+</table></div>
+    <div class="card">
+        <h2>Dataset: TEST_SCORES</h2>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Raw Rows</td><td><span class='badge'>8000</span></td></tr>
+<tr><td>Exact Duplicates</td><td><span class='badge'>0</span></td></tr>
+<tr><td>Retained Rows</td><td><span class='badge'>8000</span></td></tr>
+<tr><td>Scale Breakdown</td><td><span class='badge'>{"Raw Marks": 2002, "Letter Grade": 1983, "CGPA": 1609, "%": 816, "pct": 800, "Percentage": 790}</span></td></tr>
+<tr><td>Valid Scores Count</td><td><span class='badge'>8000</span></td></tr>
+<tr><td>Invalid Scores Count</td><td><span class='badge'>0</span></td></tr>
+</table></div></body></html>
