@@ -9,7 +9,7 @@ Welcome to the User Guide for the **Student Retention & Welfare Efficacy Portal*
 1. Open your terminal or command prompt.
 2. Navigate to the project folder:
    ```bash
-   cd C:\Users\mangi\Desktop\Datathon
+   cd Education-Retention-Tracker
    ```
 3. Launch the web application:
    ```bash
