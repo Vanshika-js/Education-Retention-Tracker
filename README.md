@@ -35,11 +35,12 @@ The pipeline is completely deterministic and reproducible. Follow these steps to
 Ensure you have Python 3.9 or higher installed. Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/transorg-datathon/track4-student-retention-efficacy.git
-cd track4-student-retention-efficacy
+git clone https://github.com/Vanshika-js/Education-Retention-Tracker.git
+cd Education-Retention-Tracker
 
 # Install required Python packages
-python -m pip install -r requirements.txt
+python -m pip install -r packageName 
+(packageName is given in requirements.txt)
 ```
 
 ### 2. Run Data Ingestion & Governance Pipeline
@@ -167,9 +168,11 @@ The embedded AI Agent allows departmental officers to ask plain-English question
 │   ├── ingestion.py                   # Master ETL pipeline runner
 │   └── risk_engine.py                 # Welfare & Retention Risk Index calculator
 ├── tests/
-│   ├── test_cleaning.py               # ETL & data cleaning unit tests
-│   ├── test_analytics.py              # DuckDB database & SQL view tests
-│   └── test_agent.py                  # AI Agent & Text-to-SQL logic tests
+│   ├── test_boolean.py                # Boolean data cleaning tests
+│   ├── test_dates.py                  # Date parsing and validation tests
+│   ├── test_ids.py                    # School ID normalization tests
+│   ├── test_mdm.py                    # MDM procurement cleaning tests
+│   └── test_scores.py                 # FLN score normalization tests
 ├── ARCHITECTURE.md                    # System architecture & Decision Records (ADRs)
 ├── DATA_DICTIONARY.md                 # Full data lineage & field dictionary
 ├── USER_GUIDE.md                      # Comprehensive guide for department staff
